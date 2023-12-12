@@ -24,6 +24,7 @@ boolean hasUniqueCharacters(String word)
 assert hasUniqueCharacters("Hello") == false
 assert hasUniqueCharacters("World") == true
 assert hasUniqueCharacters("abcdefghijklmnopqrstuvwxyz") == true
+assert hasUniqueCharacters("abcdefghijklmmnopqrstuvwxyz") == false
 assert hasUniqueCharacters("") == true
 
 println "All tests passed"
